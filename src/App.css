@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+
+.navBar{
+
+  top: 0;
+  height: 150px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pages{
+  height: 40px;
+  background-color: black;
+  position: relative;
+  margin-top: 2%;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Home{
+  margin-top: 3px;
+  min-height: 79vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contato{           
+  width: 100%;    
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.redeSocial{
+  margin-right: 400px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginPage{
+  min-height: 79vh;
+}
+
+.blocoLogin {
+  background-color: gainsboro;
+}
+
+.cadastro{
+  min-height: 79vh;
+}
+
+.blocoCadastro {
+  background-color: gainsboro;
+}
+
+.Champs{
+  background-color: gray;
+  color: black;
+  border: solid 4px;
+  border-color: brown;
+  margin-top: 30px;
+}
+
+.listChamps{
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.mylist{
+  margin-top: 3px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  min-height: 79vh;
+}
+
+.notFound{
+  min-height: 79vh;
 }
